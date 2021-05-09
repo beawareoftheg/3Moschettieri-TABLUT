@@ -6,8 +6,7 @@
       <element id="extracted-dir" path="$PROJECT_DIR$/Tablut/lib/gson-2.2.2.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/Tablut/lib/commons-cli-1.4.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/Tablut/lib/aima-core-3.0.0.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/Tablut/Executables/RandomPlayer.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/Tablut/Executables/Server.jar" path-in-jar="/" />
+      <element id="library" level="project" name="lib" />
     </root>
   </artifact>
 </component>

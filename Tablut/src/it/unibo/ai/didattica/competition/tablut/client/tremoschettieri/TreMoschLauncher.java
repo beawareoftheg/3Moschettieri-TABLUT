@@ -1,5 +1,7 @@
 package it.unibo.ai.didattica.competition.tablut.client.tremoschettieri;
 
+import java.util.Locale;
+
 public class TreMoschLauncher {
     public static void main(String args[]) {
         if(args.length != 3) {
@@ -7,6 +9,7 @@ public class TreMoschLauncher {
             return;
         }
         String role = args[0].trim();
+        role = role.toLowerCase(Locale.ROOT);
         int timeout = Integer.parseInt(args[1].trim());
         String add = args[2].trim();
         if(timeout < 1 || timeout > 60)
