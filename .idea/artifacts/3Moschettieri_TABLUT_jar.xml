@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="3Moschettieri-TABLUT:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/3Moschettieri_TABLUT_jar</output-path>
+    <root id="archive" name="3Moschettieri-TABLUT.jar">
+      <element id="module-output" name="3Moschettieri-TABLUT" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Tablut/lib/gson-2.2.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Tablut/lib/commons-cli-1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Tablut/lib/aima-core-3.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Tablut/Executables/RandomPlayer.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Tablut/Executables/Server.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Executables">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Tablut/Executables/RandomPlayer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Tablut/Executables/Server.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

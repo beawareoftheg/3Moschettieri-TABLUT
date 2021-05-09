@@ -27,7 +27,7 @@ public class TreMoschPlayer extends TablutClient{
         while (true) {
             read();
             state = getCurrentState();
-            //System.out.println("state:\n" +state);
+            System.out.println("state:\n" +state);
             if (state.getTurn() == getPlayer()) {
                 long start = System.currentTimeMillis();
                 Action action = search.makeDecision(state);

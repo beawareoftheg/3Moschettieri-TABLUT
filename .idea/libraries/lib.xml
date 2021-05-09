@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Tablut/lib/gson-2.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Tablut/lib/commons-cli-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Tablut/lib/aima-core-3.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

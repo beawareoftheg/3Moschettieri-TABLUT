@@ -2,9 +2,6 @@ package it.unibo.ai.didattica.competition.tablut.client.tremoschettieri.ai;
 
 //import aima.core.search.adversarial.Game;
 //import aima.core.search.adversarial.IterativeDeepeningAlphaBetaSearch;
-import it.unibo.ai.didattica.competition.tablut.client.tremoschettieri.euristic.TreMoschEuristic;
-import it.unibo.ai.didattica.competition.tablut.domain.Action;
-import it.unibo.ai.didattica.competition.tablut.domain.State;
 
 public class ABSearch  {}/*extends
         IterativeDeepeningAlphaBetaSearch<State, Action, State.Turn>{

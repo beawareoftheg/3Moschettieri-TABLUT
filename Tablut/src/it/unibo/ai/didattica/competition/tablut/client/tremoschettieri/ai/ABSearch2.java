@@ -3,7 +3,7 @@ package it.unibo.ai.didattica.competition.tablut.client.tremoschettieri.ai;
 import java.util.ArrayList;
 import java.util.List;
 import it.unibo.ai.didattica.competition.tablut.util.Timer;
-import it.unibo.ai.didattica.competition.tablut.client.tremoschettieri.euristic.TreMoschEuristic;
+import it.unibo.ai.didattica.competition.tablut.client.tremoschettieri.heuristic.TreMoschHeuristic;
 import it.unibo.ai.didattica.competition.tablut.domain.*;
 
 public class ABSearch2 {
@@ -20,7 +20,7 @@ public class ABSearch2 {
     }
 
     protected double eval(State state) {
-        return TreMoschEuristic.evaluation(state, turn);
+        return TreMoschHeuristic.evaluation(state, turn);
     }
 
     public Action makeDecision(State state) {
