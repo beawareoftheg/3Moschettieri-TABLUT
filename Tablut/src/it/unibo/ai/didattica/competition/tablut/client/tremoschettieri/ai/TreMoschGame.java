@@ -90,7 +90,7 @@ public class TreMoschGame extends GameAshtonTablut implements Game{
     public State getResult(State state, Action action) {
         if (state != null && action != null) {
             State myClone = state.clone();
-            return this.movePawn(myClone, action);
+            return this.moveChecker(myClone, action);
         } else {
             return this.getInitialState();
         }
@@ -316,13 +316,13 @@ public class TreMoschGame extends GameAshtonTablut implements Game{
     @Override
     public State getResult(Object state, Object action) {
         if (state != null && action != null) {
-            return this.movePawn((State)state, (Action) action);
+            return this.moveChecker((State)state, (Action) action);
         } else {
             return this.getInitialState();
         }
     }
 
-    public final State movePawn(State state, Action a) {
+    public final State moveChecker(State state, Action a) {
         Pawn pawn = state.getPawn(a.getRowFrom(), a.getColumnFrom());
         Pawn[][] newBoard = state.getBoard();
         if (a.getColumnFrom() == 4 && a.getRowFrom() == 4) {

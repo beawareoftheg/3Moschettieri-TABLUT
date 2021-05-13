@@ -106,7 +106,7 @@ public abstract class State {
 		// Iterate through all legal moves and apply them to a clone of the board state
 		for (Action action: allActions) {
 			State clonedState = (State) clone();
-			clonedState = rules.movePawn(clonedState, action); // apply the operator o and obtain the new game state s.
+			clonedState = rules.moveChecker(clonedState, action); // apply the operator o and obtain the new game state s.
 			successors.add(clonedState);
 		}
 		return successors;

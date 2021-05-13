@@ -38,7 +38,7 @@ public class ABSearch2 {
             for (Action action : actions)
             {
                 stateClone = state.clone();
-                size[ind] = minValue(game.movePawn(stateClone, action), 1, Double.POSITIVE_INFINITY, Double.NEGATIVE_INFINITY);
+                size[ind] = minValue(game.moveChecker(stateClone, action), 1, Double.POSITIVE_INFINITY, Double.NEGATIVE_INFINITY);
                 if (timeout.isExpired()) {
                     break;
                 }

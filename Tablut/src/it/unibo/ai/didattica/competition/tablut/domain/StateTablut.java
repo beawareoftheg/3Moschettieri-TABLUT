@@ -60,12 +60,6 @@ public class StateTablut extends State implements Serializable {
 		this.board[4][7] = Pawn.BLACK;
 
 	}
-	/**
-	 * Check if the game is over
-	 *
-	 * @return true if the game is over
-	 */
-
 
 	public StateTablut clone() {
 		StateTablut result = new StateTablut();
