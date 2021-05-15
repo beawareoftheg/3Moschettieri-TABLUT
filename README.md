@@ -50,3 +50,17 @@ ant randomblack
 At this point, a window with the game state should appear.
 
 To be able to run other classes, change the `build.xml` file and re-compile everything
+
+## Launch TreMoschettieri Player
+
+To launch our player with role white, 60 seconds of timeout and with a local server just use:
+
+```
+java -jar out/artifacts/3Moschettieri_TABLUT_jar/3Moschettieri-TABLUT.jar white 60 localhost
+```
+
+And for black role:
+
+```
+java -jar out/artifacts/3Moschettieri_TABLUT_jar/3Moschettieri-TABLUT.jar white 60 localhost
+```
